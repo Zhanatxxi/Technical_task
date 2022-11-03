@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    volumes:
+      - log_file:/project/test_project/
+
+volumes:
+  log_file:
